@@ -1,0 +1,16 @@
+{% load static %}
+{% load menu_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'menu.css' %}">
+</head>
+<body>
+    <h1 align="center">Меню с категориями</h1>
+    <div class="menu">
+        {% draw_menu 'main_menu' %}
+    </div>
+</body>
+</html>
