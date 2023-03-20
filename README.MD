@@ -6,7 +6,7 @@
 
 1. Склонируйте репозиторий
 ```
-git clone https://github.com/Untouchable17/tz-backend-python
+git clone https://github.com/Untouchable17/tz-backend-python.git
 ```
 2. Создайте и активируйте виртуальное окружение
 ```
@@ -31,7 +31,7 @@ python manage.py runserver
 > Метод 2: С помощью докера
 1. Склонируйте репозиторий
 ```
-git clone https://github.com/Untouchable17/tz-backend-python
+git clone https://github.com/Untouchable17/tz-backend-python.git
 ```
 2. Запустите докер
 ```
